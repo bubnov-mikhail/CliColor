@@ -1,7 +1,7 @@
 <?php
-namespace CLI_Color;
+namespace CliColor;
 
-class CLI_Color {
+class CliColor {
 	static private $statuses = array(
 		's'=>	"\033[0;30m\033[42m",
 		'w'=>	"\033[0;30m\033[41m",
