@@ -39,23 +39,23 @@ class CliColor {
  		
  	static public function Success($string,$nl=0) 
  	{
-		return self::__Output($string,'s',$nl=0);
+		return self::__Output($string,'s',$nl);
  	}
  	static public function Warning($string,$nl=0) 
  	{
- 		return self::__Output($string,'w',$nl=0);
+ 		return self::__Output($string,'w',$nl);
  	}
  	static public function Notify($string,$nl=0) 
  	{
- 		return self::__Output($string,'n',$nl=0);
+ 		return self::__Output($string,'n',$nl);
  	}
  	static public function Promt($string,$nl=0) 
  	{
- 		return self::__Output($string,'p',$nl=0);
+ 		return self::__Output($string,'p',$nl);
  	}
  	static public function Output($string,$nl=0) 
  	{
- 		return self::__Output($string,'o',$nl=0);
+ 		return self::__Output($string,'o',$nl);
  	}
  		
  	
