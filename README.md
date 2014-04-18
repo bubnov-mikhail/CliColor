@@ -13,6 +13,7 @@ All methods are static
 ```php
 <?php
 require_once 'vendor/autoload.php';
+use CliColor\CliColor;
 
 echo CliColor::Success("Some text to user"); //will return pretty white text on green background
 echo CliColor::Success("Some text to user",true); //will return pretty white text on green background on new line
