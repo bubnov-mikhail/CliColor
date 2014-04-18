@@ -1,15 +1,15 @@
 {
-    "name": "bubnovKelnik/CLI_Color",
+    "name": "bubnovKelnik/CliColor",
     "description": "php lib for preparing colored messages by Bubnov",
     "keywords": ["php cli", "color echo"],
-    "homepage": "https://github.com/bubnovKelnik/cli_color",
+    "homepage": "https://github.com/bubnovKelnik/CliColor",
     "type": "git",
     "version": "1.0.0",
     "license": "MIT",
     "minimum-stability" : "dev",
     "autoload": {
         "psr-0": {
-            "CLI_Color": "/CLI_Color.php"
+            "CliColor": "/CliColor.php"
         }
     }
 }
