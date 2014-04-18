@@ -1,4 +1,4 @@
-# Cli_Color
+# CliColor
 
 # Description
 
@@ -14,12 +14,12 @@ All methods are static
 <?php
 require_once 'vendor/autoload.php';
 
-echo CLI_Color::Success("Some text to user"); //will return pretty white text on green background
-echo CLI_Color::Success("Some text to user",true); //will return pretty white text on green background on new line
+echo CliColor::Success("Some text to user"); //will return pretty white text on green background
+echo CliColor::Success("Some text to user",true); //will return pretty white text on green background on new line
 
-echo CLI_Color::Warning("Some text to user"); //will return pretty white text on green background
-echo CLI_Color::Notify("Some text to user"); //will return pretty dark text on gray background
-echo CLI_Color::Promt("Some text to user"); //will return pretty white text on blue background
+echo CliColor::Warning("Some text to user"); //will return pretty white text on green background
+echo CliColor::Notify("Some text to user"); //will return pretty dark text on gray background
+echo CliColor::Promt("Some text to user"); //will return pretty white text on blue background
 
-CLI_Color::Wait(); //each time you call it, will print one symbol in cycle (prev symbol of progress will be deleted); You do not need to echo method return
+CliColor::Wait(); //each time you call it, will print one symbol in cycle (prev symbol of progress will be deleted); You do not need to echo method return
 ```
