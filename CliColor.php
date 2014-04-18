@@ -59,7 +59,7 @@ class CliColor {
  	}
  		
  	
- 	static public function __call($name, $arguments)
+ 	public function __call($name, $arguments)
  	{
 		if(empty($name) || empty($arguments) || !is_array($arguments))	
 		{
