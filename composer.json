@@ -6,5 +6,5 @@
     "type": "git",
     "version": "1.0.0",
     "license": "MIT",
-    "minimum-stability" : "stable",
+    "minimum-stability" : "stable"
 }
